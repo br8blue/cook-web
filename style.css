@@ -12,10 +12,10 @@ button:hover{
     background-color:coral
 }
 
-.recipes{
-    font-size: 20px;
-    padding: 20px 40px;
-    width: 250px;
-    height: 60px;
+.food-button{
+    font-size: 15;
+    padding: 15px 25px;
+    width: 175px;
+    height: 45px;
 }
 
