@@ -1,13 +1,13 @@
 body {
-    background-color: chocolate;
+    background-color:chocolate;
 }
 
-browse-recipe{
-        background-color: darkcyan;
-
+#browse-recipe{
+        background-color:orangered;
+        color:whitesmoke;
+        font: size 20px;;
 }
 
-browse-recipe:hover {
-    background-color: cornflowerblue;
-
+#browse-recipe:hover {
+    background-color:coral
 }

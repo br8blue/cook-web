@@ -1,2 +1,2 @@
-console.log('"I love Cook Web", said everyone who had ever used it.')
+console.log("Everybody loves using Cook Web, so you should too!")
 
