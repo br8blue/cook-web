@@ -2,12 +2,20 @@ body {
     background-color:chocolate;
 }
 
-#browse-recipe{
+button{
         background-color:orangered;
         color:whitesmoke;
         font: size 20px;;
 }
 
-#browse-recipe:hover {
+button:hover{
     background-color:coral
 }
+
+.recipes{
+    font-size: 20px;
+    padding: 20px 40px;
+    width: 250px;
+    height: 60px;
+}
+
