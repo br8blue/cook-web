@@ -15,3 +15,5 @@ function submitComplaint() {
 
     window.location.href = mailtoLink; 
 }
+
+
