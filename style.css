@@ -19,3 +19,16 @@ button:hover{
     height: 45px;
 }
 
+
+#index-content{
+    display:grid;
+    place-items: center;
+}
+
+
+#browse-foods{
+    font-size: 20px;
+    padding: 20px;
+    width: 275px;
+    height: 100px;
+}
