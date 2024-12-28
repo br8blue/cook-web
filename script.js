@@ -1,19 +1,30 @@
 function submitRequest() {
     var email = 'praneelsrini2012@gmail.com';
-    var subject = 'New Recipe Request';
+    var subject = 'New Food Request';
     var body = 'Greetings Cook Web Team,';
     var mailtoLink = 'mailto:' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 
     window.location.href = mailtoLink; 
 }
 
-function submitComplaint() {
+function submitComplaintKhinkali() {
     var email = 'praneelsrini2012@gmail.com';
-    var subject = 'Article Complaint';
-    var body = 'Greetings Cook Web Team,';
+    var subject = 'Khinkali Article Issue';
+    var body = 'Greetings Cook Web Team, ';
     var mailtoLink = 'mailto:' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
 
     window.location.href = mailtoLink; 
 }
+
+function submitComplaintBiriyani() {
+    var email = 'praneelsrini2012@gmail.com';
+    var subject = 'Biriyani Article Issue';
+    var body = 'Greetings Cook Web Team, ';
+    var mailtoLink = 'mailto:' + email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+
+    window.location.href = mailtoLink; 
+}
+
+
 
 
