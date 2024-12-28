@@ -16,7 +16,7 @@ function submitComplaintKhinkali() {
     window.location.href = mailtoLink; 
 }
 
-function submitComplaintBiriyani() {
+function submitComplaintBiryani() {
     var email = 'praneelsrini2012@gmail.com';
     var subject = 'Biriyani Article Issue';
     var body = 'Greetings Cook Web Team, ';
