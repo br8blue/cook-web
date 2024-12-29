@@ -154,4 +154,22 @@ body {
                 0 0 90px rgb(0,140,255);
   }
 
+.photo-caption {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    color: aliceblue;
 
+}
+
+
+
+
+
+
+
+.photo:hover {
+    box-shadow: 0 0 30px yellow,
+                0 0 55px yellow,
+                0 0 90px yellow,
+                0 0 150px yellow;
+  }
