@@ -37,4 +37,12 @@ function submitComplaintPaella() {
 
 
 
-
+function redirectToRandomFood() {
+    var urls = [
+        'http://127.0.0.1:5500/khinkali.html',
+        'http://127.0.0.1:5500/paella.html',
+        'http://127.0.0.1:5500/biriyani.html' 
+    ];
+    var randomIndex = Math.floor(Math.random() * urls.length);
+    window.location.href = urls[randomIndex];
+}
