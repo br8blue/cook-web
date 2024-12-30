@@ -85,17 +85,11 @@ body {
   }
 
 
-#submit-request{
-    font-size: 20px;
-    padding: 20px;
-    width: 275px;
-    height: 100px;
-}
 
 #submit-request {
     padding: 5px 10px;
     border: none;
-    font-size: 14px;
+    font-size: 19px;
     color: #fff;
     border-radius: 7px;
     letter-spacing: 4px;
@@ -103,8 +97,8 @@ body {
     text-transform: uppercase;
     transition: 0.5s;
     transition-property: box-shadow;
-    width: 150px;
-    height: 30px;
+    width: 250px;
+    height: 80px;
   }
   
 #submit-request {
@@ -213,3 +207,86 @@ body {
                 0 0 50px rgb(0,140,255),
                 0 0 100px rgb(0,140,255);
   }
+
+
+
+
+
+
+#form-content {
+  display: flex;
+  align-items: center;  
+  justify-content: space-evenly;
+  height:100vh
+}
+
+
+
+#contact-us {
+  font-size: 60px;
+  margin-bottom:20px;
+  font-weight: 600px;
+  font-style: normal;
+  content: normal;
+
+}
+
+#form-line {
+  width: 100%;
+  margin: 20px 0;
+
+}
+
+
+
+.form-input {
+  font-size: 24px; 
+  padding: 15px;    
+  width: 100%; 
+  margin-bottom: 20px; 
+  border-radius: 5px;
+  border: 2px solid #ccc; 
+  box-sizing: border-box; 
+}
+
+
+
+
+
+#submit-form{
+  font-size: 20px;
+  padding: 20px;
+  width: 275px;
+  height: 100px;
+}
+
+#submit-form {
+  padding: 5px 10px;
+  border: none;
+  font-size: 30px;
+  color: #fff;
+  border-radius: 7px;
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+  width: 275px;
+  height: 90px;
+}
+
+#submit-form {
+  background: rgb(0,140,255);
+  box-shadow: 0 0 25px rgb(0,140,255);
+}
+
+#submit-form:hover {
+  box-shadow: 0 0 5px rgb(0,140,255),
+              0 0 15px rgb(0,140,255),
+              0 0 40px rgb(0,140,255),
+              0 0 90px rgb(0,140,255);
+}
+
+
+
+

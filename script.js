@@ -46,3 +46,5 @@ function redirectToRandomFood() {
     var randomIndex = Math.floor(Math.random() * urls.length);
     window.location.href = urls[randomIndex];
 }
+
+
