@@ -217,13 +217,16 @@ body {
   display: flex;
   align-items: center;  
   justify-content: space-evenly;
-  height:100vh
+  height:100vh;
+  flex-direction: column; 
+  justify-content: center;
+  padding: 20px;
 }
 
 
 
 #contact-us {
-  font-size: 60px;
+  font-size: 80px;
   margin-bottom:20px;
   font-weight: 600px;
   font-style: normal;
@@ -232,8 +235,8 @@ body {
 }
 
 #form-line {
-  width: 100%;
-  margin: 20px 0;
+  width: 130%;
+  margin: 30px 0;
 
 }
 
@@ -254,16 +257,15 @@ body {
 
 
 #submit-form{
-  font-size: 20px;
-  padding: 20px;
-  width: 275px;
-  height: 100px;
-}
+  font-size: 30px;
+  font-style: normal;
+  content: normal;
+  align-items: center;
+} 
 
 #submit-form {
   padding: 5px 10px;
   border: none;
-  font-size: 30px;
   color: #fff;
   border-radius: 7px;
   letter-spacing: 4px;
@@ -271,7 +273,7 @@ body {
   text-transform: uppercase;
   transition: 0.5s;
   transition-property: box-shadow;
-  width: 275px;
+  width: 425px;
   height: 90px;
 }
 
