@@ -86,10 +86,10 @@ body {
 
 
 
-#submit-request {
+#request {
     padding: 5px 10px;
     border: none;
-    font-size: 19px;
+    font-size: 26px;
     color: #fff;
     border-radius: 7px;
     letter-spacing: 4px;
@@ -101,12 +101,12 @@ body {
     height: 80px;
   }
   
-#submit-request {
+#request {
     background: rgb(0,140,255);
     box-shadow: 0 0 25px rgb(0,140,255);
   }
   
-#submit-request:hover {
+#request:hover {
     box-shadow: 0 0 5px rgb(0,140,255),
                 0 0 15px rgb(0,140,255),
                 0 0 40px rgb(0,140,255),
@@ -114,14 +114,14 @@ body {
   }
 
 
-.submit-complaint{
+.complaint{
     font-size: 20px;
     padding: 20px;
     width: 275px;
     height: 100px;
 }
 
-.submit-complaint {
+.complaint {
     padding: 5px 10px;
     border: none;
     font-size: 14px;
@@ -136,12 +136,12 @@ body {
     height: 60px;
   }
   
-.submit-complaint {
+.complaint {
     background: rgb(0,140,255);
     box-shadow: 0 0 25px rgb(0,140,255);
   }
   
-.submit-complaint:hover {
+.complaint:hover {
     box-shadow: 0 0 5px rgb(0,140,255),
                 0 0 15px rgb(0,140,255),
                 0 0 40px rgb(0,140,255),
@@ -256,14 +256,14 @@ body {
 
 
 
-#submit-form{
+.submit-form{
   font-size: 30px;
   font-style: normal;
   content: normal;
   align-items: center;
 } 
 
-#submit-form {
+.submit-form {
   padding: 5px 10px;
   border: none;
   color: #fff;
@@ -277,17 +277,19 @@ body {
   height: 90px;
 }
 
-#submit-form {
+.submit-form {
   background: rgb(0,140,255);
   box-shadow: 0 0 25px rgb(0,140,255);
 }
 
-#submit-form:hover {
+.submit-form:hover {
   box-shadow: 0 0 5px rgb(0,140,255),
               0 0 15px rgb(0,140,255),
               0 0 40px rgb(0,140,255),
               0 0 90px rgb(0,140,255);
 }
+
+
 
 
 
