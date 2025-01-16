@@ -185,7 +185,7 @@ body {
 #random-food{
     padding: 10px 20px;
     border: none;
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
     border-radius: 7px;
     letter-spacing: 4px;
@@ -193,6 +193,7 @@ body {
     text-transform: uppercase;
     transition: 0.5s;
     transition-property: box-shadow;
+    width: fit-content
   }
   
 #random-food {
