@@ -4,15 +4,39 @@ body {
 
 body {
     font-family: sans-serif;
-
 }
 
 
 
 #index-content{
-    display:grid;
-    place-items: center;
+  display: flex;
+  align-items: center;  
+  justify-content: space-evenly;
+  height:100vh;
+  flex-direction: column; 
+  justify-content: center;
+  padding: 20px;
+  width: 100vh;
 }
+
+
+
+
+#chef-div{
+  position: relative;
+  margin-top: -775px;
+  margin
+}
+
+
+#chef{
+  float: right;
+  display: flex;
+  width: fit-content;
+}
+
+
+
 
 
 #browse-foods{
